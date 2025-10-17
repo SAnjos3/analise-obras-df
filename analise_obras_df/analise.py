@@ -1,7 +1,7 @@
 def verifica_coluna(coluna, df):
     """Retorna dois dicionarios com os valores de completude e unicidade da coluna passada como argumento."""
 
-    print(df[coluna].head(10).unique())
+    #print(df[coluna].head(10).unique())
     completude_coluna = {}
     completude_coluna['Valores Nulos'] = df[coluna].isnull().sum()
     completude_coluna['Valores Não Nulos'] = df[coluna].notnull().sum()
@@ -32,6 +32,12 @@ def sugere_conversao(coluna):
     coluna_limpa = coluna.dropna()
     if coluna_limpa.empty:
         return 'vazia'
+    
+    # Bloco de booleanos
+    valores_unicos_lower = set(coluna_limpa.astype(str).str.lower().unique())
+    representacoes_booleanas = {'true', 'false', '1', '0', 'sim', 'nao', 's', 'n', 'yes', 'no'}
+    if valores_unicos_lower.issubset(representacoes_booleanas):
+        return 'bool'
 
     # Bloco numerioco
     try:
@@ -56,11 +62,6 @@ def sugere_conversao(coluna):
     except (ValueError, TypeError):
         pass 
 
-    # Bloco de booleanos
-    valores_unicos_lower = set(coluna_limpa.astype(str).str.lower().unique())
-    representacoes_booleanas = {'true', 'false', '1', '0', 'sim', 'nao', 's', 'n', 'yes', 'no'}
-    if valores_unicos_lower.issubset(representacoes_booleanas):
-        return 'bool'
 
     # Bloco de categoricos
     num_unicos = coluna.nunique()

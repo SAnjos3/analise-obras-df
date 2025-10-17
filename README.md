@@ -50,5 +50,10 @@ https://pandas.pydata.org/docs/getting_started/overview.html
 https://stackoverflow.com/questions/22005911/convert-columns-to-string-in-pandas
 
 https://www.ibm.com/think/topics/exploratory-data-analysis
+https://www.ibm.com/br-pt/think/insights/data-quality-metrics
 
 https://www.datascience-pm.com/wp-content/uploads/2024/12/CRISP-DM-for-Data-Science-2025.pdf
+
+https://s3.amazonaws.com/files.commons.gc.cuny.edu/wp-content/blogs.dir/20521/files/2022/09/Knaflic-storytelling-data.pdf
+
+https://www.ibm.com/docs/pt-br/SS3RA7_18.5.0/nl/pt/BR/pdf/ModelerCRISPDM.pdf
