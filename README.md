@@ -57,8 +57,6 @@ https://api.obrasgov.gestao.gov.br/obrasgov/api/swagger-ui/index.html#/
 ## Referências Bibliográficas
 BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. ObrasGov.br API: Swagger UI. [S.l.], [20--?]. Disponível em: https://api.obrasgov.gestao.gov.br/obrasgov/api/swagger-ui/index.html#/Projeto%20De%20Investimento/buscarPorFiltro. Acesso em: 17 out. 2025.
 
-CONVERT columns to string in pandas. Stack Overflow, 13 mar. 2014. Disponível em: https://stackoverflow.com/questions/22005911/convert-columns-to-string-in-pandas. Acesso em: 17 out. 2025.
-
 DATASCIENCE-PM.COM. CRISP-DM for Data Science 2025. [S.l.]: DataScience-PM.com, 2024. Disponível em: https://www.datascience-pm.com/wp-content/uploads/2024/12/CRISP-DM-for-Data-Science-2025.pdf. Acesso em: 17 out. 2025.
 
 IBM. Modeler CRISP-DM Guide. [S.l.]: IBM, [20--?]. Disponível em: https://www.ibm.com/docs/pt-br/SS3RA7_18.5.0/nl/pt/BR/pdf/ModelerCRISPDM.pdf. Acesso em: 17 out. 2025.
@@ -72,3 +70,17 @@ KNAFLIC, Cole Nussbaumer. Storytelling with data. [S.l.: s.n.], 2022. Disponíve
 PYDATA. Getting started - Overview: pandas documentation. [S.l.]: PyData, [20--?]. Disponível em: https://pandas.pydata.org/docs/getting_started/overview.html. Acesso em: 17 out. 2025.
 
 REQUESTS: HTTP for Humans™. [S.l.]: Read the Docs, [20--?]. Disponível em: https://requests.readthedocs.io/en/latest/. Acesso em: 17 out. 2025.
+
+## Declaraçao de Uso de IA
+
+No desenvolvimento deste projeto, a ferramenta de Inteligência Artificial Gemini foi utilizada como um recurso de apoio para otimizar e aprimorar certas etapas do trabalho. Especificamente, a IA foi empregada para:
+
+- Sugestão de Referências Bibliográficas: Fornecer pontos de partida para pesquisa bibliográfica, e embasamento teorico (exemplo: IBM, CRISP-DM).
+
+- Revisão Textual: Auxiliar na revisão da clareza, coesão e gramática dos textos explicativos e conclusões presentes no notebook.
+
+- Auxílio Teórico: Esclarecer conceitos específicos relacionados as ferramentas usadas, bancos de dados (ex: Tabelas Lookup, Normalização) e técnicas de análise de dados.
+
+- Auxílio Analítico e de Código: Revisao de analises brutas que realizei, auxílio na confecção de códigos complexos, como também no auto-complete (extensao do vscode - copilot).
+
+Para os objetos e resultados apresentados pela IA, houve revisão manual por parte do autor.
